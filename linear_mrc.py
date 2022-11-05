@@ -50,7 +50,7 @@ if not isExist:
 # 设置所使用的y
 y_slot = 'y_to_predict_half_day'
 
-# 动态取bound有大问题，要进行更改
+# 动态取bound
 def linear_opt_bound(decision_df,combined_df,window_count,y_slot,path = plot_path):
 
     # 设置基础参数
@@ -162,7 +162,7 @@ def linear_optimization(x,combined_df,window_count,y_slot,path = plot_path):
     
     return beta_array
 
-# load features， 后续可以考虑将money bar加入其中
+# load features
 data_df = pd.read_csv("/home/liheng/Futures/data/complete_dataset_ver2.csv")
 data_df.dropna(inplace=True)
 data_df.index = data_df['date_time'] 
