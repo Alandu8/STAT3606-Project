@@ -1,7 +1,7 @@
 ## Group Members
-Hung Yui Yeung 3035691614
-Ruan Ying 3035812024
-Du Liheng 3035532870
+Hung Yui Yeung 3035691614\n
+Ruan Ying 3035812024\n
+Du Liheng 3035532870\n
 Zhang Hongzhuo 3035638404
 
 
